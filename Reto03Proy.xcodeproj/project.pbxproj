@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DEC0F6AC293A5F4D0053CE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6AB293A5F4D0053CE78 /* AppDelegate.swift */; };
 		DEC0F6AE293A5F4D0053CE78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6AD293A5F4D0053CE78 /* SceneDelegate.swift */; };
-		DEC0F6B0293A5F4D0053CE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6AF293A5F4D0053CE78 /* ViewController.swift */; };
 		DEC0F6B3293A5F4D0053CE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC0F6B1293A5F4D0053CE78 /* Main.storyboard */; };
 		DEC0F6B5293A5F4F0053CE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC0F6B4293A5F4F0053CE78 /* Assets.xcassets */; };
 		DEC0F6B8293A5F4F0053CE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC0F6B6293A5F4F0053CE78 /* LaunchScreen.storyboard */; };
+		DEC0F6C0293A611B0053CE78 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6BF293A611B0053CE78 /* Tarea.swift */; };
+		DEC0F6C2293A61330053CE78 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6C1293A61330053CE78 /* ListaTableViewController.swift */; };
+		DEC0F6C4293A61430053CE78 /* FormularioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6C3293A61430053CE78 /* FormularioTableViewController.swift */; };
+		DEC0F6C6293A6DA80053CE78 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6C5293A6DA80053CE78 /* CustomTableViewCell.swift */; };
+		DEC0F6C8293A92F70053CE78 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0F6C7293A92F70053CE78 /* DetalleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEC0F6A8293A5F4D0053CE78 /* Reto03Proy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reto03Proy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC0F6AB293A5F4D0053CE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEC0F6AD293A5F4D0053CE78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEC0F6AF293A5F4D0053CE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEC0F6B2293A5F4D0053CE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEC0F6B4293A5F4F0053CE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEC0F6B7293A5F4F0053CE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEC0F6B9293A5F4F0053CE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC0F6BF293A611B0053CE78 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		DEC0F6C1293A61330053CE78 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		DEC0F6C3293A61430053CE78 /* FormularioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioTableViewController.swift; sourceTree = "<group>"; };
+		DEC0F6C5293A6DA80053CE78 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DEC0F6C7293A92F70053CE78 /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				DEC0F6AB293A5F4D0053CE78 /* AppDelegate.swift */,
 				DEC0F6AD293A5F4D0053CE78 /* SceneDelegate.swift */,
-				DEC0F6AF293A5F4D0053CE78 /* ViewController.swift */,
 				DEC0F6B1293A5F4D0053CE78 /* Main.storyboard */,
 				DEC0F6B4293A5F4F0053CE78 /* Assets.xcassets */,
 				DEC0F6B6293A5F4F0053CE78 /* LaunchScreen.storyboard */,
 				DEC0F6B9293A5F4F0053CE78 /* Info.plist */,
+				DEC0F6BF293A611B0053CE78 /* Tarea.swift */,
+				DEC0F6C1293A61330053CE78 /* ListaTableViewController.swift */,
+				DEC0F6C3293A61430053CE78 /* FormularioTableViewController.swift */,
+				DEC0F6C5293A6DA80053CE78 /* CustomTableViewCell.swift */,
+				DEC0F6C7293A92F70053CE78 /* DetalleViewController.swift */,
 			);
 			path = Reto03Proy;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC0F6B0293A5F4D0053CE78 /* ViewController.swift in Sources */,
+				DEC0F6C8293A92F70053CE78 /* DetalleViewController.swift in Sources */,
+				DEC0F6C6293A6DA80053CE78 /* CustomTableViewCell.swift in Sources */,
+				DEC0F6C4293A61430053CE78 /* FormularioTableViewController.swift in Sources */,
 				DEC0F6AC293A5F4D0053CE78 /* AppDelegate.swift in Sources */,
+				DEC0F6C2293A61330053CE78 /* ListaTableViewController.swift in Sources */,
 				DEC0F6AE293A5F4D0053CE78 /* SceneDelegate.swift in Sources */,
+				DEC0F6C0293A611B0053CE78 /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
